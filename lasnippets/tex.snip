@@ -599,3 +599,53 @@ alias   \Cref
 snippet label
 alias   \label
 	\label{${1}}${0}
+
+
+# ============ Proof and theorem ===============
+snippet proof
+alias   \begin{proof} \proof EPR
+	\begin{proof}
+		${1:TARGET}
+	\end{proof}
+
+snippet definition
+alias   \begin{definition} \definition EDE
+	\begin{definition}[${1}]
+		${2:TARGET}
+	\end{definition}
+
+snippet theorem
+alias   \begin{theorem} \theorem ETH
+	\begin{theorem}[${1}]
+		${2:TARGET}
+	\end{theorem}
+
+snippet remark
+alias   \begin{remark} \remark ERE
+	\begin{remark}[${1}]
+		${2:TARGET}
+	\end{remark}
+
+snippet corollary
+alias   \begin{corollary} \corollary ECR
+	\begin{corollary}[${1}]
+		${2:TARGET}
+	\end{corollary}
+
+snippet lemma
+alias   \begin{lemma} \lemma ELE
+	\begin{lemma}[${1}]
+		${2:TARGET}
+	\end{lemma}
+
+snippet proposition
+alias   \begin{proposition} \proposition EPP
+	\begin{proposition}[${1}]
+		${2:TARGET}
+	\end{proposition}
+
+snippet example
+alias   \begin{example} \example EEX
+	\begin{example}[${1}]
+		${2:TARGET}
+	\end{example}
